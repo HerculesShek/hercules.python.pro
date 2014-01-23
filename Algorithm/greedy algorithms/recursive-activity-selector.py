@@ -21,7 +21,6 @@ def recurisive_activity_selector(s, f, k, n):   # n是所有活动的个数，�
         return []
     
 def main():
-
     s, f = [e[0] for e in a], [e[1] for e in a]
     r = recurisive_activity_selector(s, f, 0, len(a)-1)
     print r
